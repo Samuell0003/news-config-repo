@@ -1,7 +1,8 @@
 spring:
   application:
     name: eureka-client-api-gateway
-
+    profiles:
+      active: dev
   cloud:
     gateway:
       enabled: true
@@ -9,6 +10,7 @@ spring:
         locator:
           enabled: true
           lower-case-service-id: true
+
 
 server:
   port: 8765
