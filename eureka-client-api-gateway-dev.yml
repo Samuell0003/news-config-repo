@@ -1,8 +1,7 @@
 spring:
   application:
     name: eureka-client-api-gateway
-    profiles:
-      active: dev
+   
   cloud:
     gateway:
       enabled: true
